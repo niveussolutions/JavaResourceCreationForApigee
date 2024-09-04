@@ -17,6 +17,7 @@
        <version>-D packaging=<packaging>  Document
 
 ****Example:****
+
   1. mvn install:install-file -D file=message-flow-1.0.0.jar -D groupId=com.apigee.edge -D artifactId=message-flow -D 
        version=1.0.0 -Dpackaging=jar
      
@@ -25,6 +26,8 @@
      
   
 ****Maven project using Eclipse****
+
+
     1. Install Java
     
     2. Install Maven
@@ -66,5 +69,9 @@
     • Open your project Location > Target > ProjectName+-jar-with-dependencies.jar  
     
 ****This will be the jar which needs to be imported on Apigee as a jar resource****
+
 ****Note the class name in the javacallout should be the class qualified name**** 
+
 for example : right click on /src/main/java copy qualifier name /testing-app/src/main/java/JavaApigee/test_app/AthenaDataFetcher.java here classname would be <ClassName>JavaApigee.test_app.AthenaDataFetcher</ClassName> 
+
+
